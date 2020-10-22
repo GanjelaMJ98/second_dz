@@ -16,7 +16,14 @@ int subtraction(int a, int b){
 	return (a - b);
 }
 
-
+// функция деления
+float division(float a, float b){
+	if(b != 0){
+		return (a / b);
+	}else{
+		return -1;
+	}
+}
 
 int main(int argc, char const *argv[])
 {
