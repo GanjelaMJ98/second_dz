@@ -11,6 +11,11 @@ int multiply(int a, int b){
     return (a * b);
 }
 
+// функция вычитания
+int subtraction(int a, int b){
+	return (a - b);
+}
+
 
 
 int main(int argc, char const *argv[])
